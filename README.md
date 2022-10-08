@@ -48,12 +48,12 @@ devtools::install_github("PunjabNamaskar/AppleWatchRing",force=TRUE)
 
 ## Data Format 
 
-The function `AppleWatchRing` takes two types of data, `list` and `threshold`, both as vectors of equal length. The actual radius of each ring depends on the `value` calculated from dividing `list` elements by their correspondent `threshold` (i.e., `1` equals a radius of `2π`).
+The function `AppleWatchRing` takes two types of data, `list` and `threshold`, both as vectors of equal length. The actual radius of each ring depends on the `value` calculated from dividing `list` elements by their `threshold` counterparts (i.e., `1` equals a radius of `2π`).
  
 ## Usage
 
 The package requires 3 compulsory parameters:
-- **list:** the name of the csv file for data input that has been described above, such as `"xx.csv"`. 
+- **list:** the list of attributes that are to be packed together and rendered in comparison, such as the _Move, Exercise, Stand_ scores of real Apple Watch. 
 - **threshold:** the level of the hierarchical data to be used for labeling, such as `2`.
 - **color:** the hex color codes for representing different groups of data, should be half length of the labeled level, such as `c("#ee3437","#0081c1","#9d55a2","#0bae57")`. The other half of light colors will be generated then.
 
