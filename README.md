@@ -55,14 +55,18 @@ The function `AppleWatchRing` takes two types of data, `list` and `threshold`, b
 The package requires 3 compulsory parameters:
 - **list:** the list of attributes that are to be packed together and rendered in comparison, such as the _Move, Exercise, Stand_ scores of real Apple Watch. 
 - **threshold:** the threshold or benchmark values for each `list` element to look up to.
-- **color:** the hex color codes for representing different rings, should be an _n×2_ vector, with each color pair on the same row being the start and end colors. The up-to-down order corresponds to the inside-out alignment of rings.
+- **color:** the hex codes for representing color interpolation within different rings, should be an _n×2_ vector, with each horinzontal color pair being the start and end colors. The up-to-down order corresponds to the inside-out alignment of rings.
 
 as well as 9 optional parameters:
-- **seed:** the seed to initiate the Kaleidoscope diagram, for different seeds give rise to different or even zero patterns, depending on the convergence of the state. Some seeds do not generate a diagram at all.
-- **title:** the title for the stacked barplots, should be in quotes such as `"xx"`.
-- **subtitle:** the subtitle for the stacked barplots, should also be in quotes such as `"xx"`. 
-- **error_tol:** the tolerable error rate between the areas of actual polygon and theoretical polygon, with smaller values indicating more accuracy. Default at `0.01`.
-- **maxIteration:** the maximum rounds of iteration allowed for the algorithm, with larger values bringing higher possibility of finding convergence. Default at `10000`.
+- **radius:** the radius of empty space in the middle of the diagram, defalt at `0.5`. 
+- **thickness:** the thickness of ring gaps, with a smaller value indicating a more compact alignment, default at `0.8`.
+- **size:** the size of the diagram, default at `20`.
+- **shadow_ring_end:** the size of shadow at the end of each ring, default at `0.2`.
+- **shadow_ring_end:** the size of shadow on the edge of each ring, default at `0.05`.
+- **alpha_ring_end:** the alpha transparency of shadow at the end of each ring, default at `0.2`.
+- **alpha_ring_edge:** the alpha transparency of shadow on the edge of each ring, default at `0.2`.
+- **alpha_bottom_color:** the alpha transparency of bottom color underneath each ring, default at `0.01`.
+- **alpha_bottom_shadow:** the alpha transparency of bottom shadow underneath each ring, default at `0.01`.
  
  After all parameters are determined, run the following sample(
  palette: <img src="https://img.shields.io/badge/ --787aff">
