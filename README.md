@@ -29,6 +29,7 @@ By applying the Voronoi-based migration **Kaleidoscope diagram** and integrating
 By attributing different colors to groups and differentiating **in-** and **outflows** with **deep** and **light** shades, information about each body’s weight in the migration network is gained from their size in the diagrams, and variable as well as invariable patterns are observed from the trends. <br />
 
 <p float="left">
+  <img src="https://github.com/PunjabNamaskar/AppleWatchRing/blob/main/panel.png" width=15% height=15% />
   <img src="https://github.com/PunjabNamaskar/AppleWatchRing/blob/main/AppleWatchRing4.png" width=15% height=15% />
   <img src="https://github.com/PunjabNamaskar/AppleWatchRing/blob/main/AppleWatchRing3.png" width=15% height=15% />
  <img src="https://github.com/PunjabNamaskar/AppleWatchRing/blob/main/AppleWatchRing2.png" width=15% height=15% />
