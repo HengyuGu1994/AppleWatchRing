@@ -6,11 +6,13 @@
 
 <p>
 
-<img src="https://img.shields.io/badge/multi-dimensional-ee3437">
+<img src="https://img.shields.io/badge/multi-dimensional-fa1250">
 
-<img src="https://img.shields.io/badge/multi-colored-0081c1">
+<img src="https://img.shields.io/badge/multi-colored-98fe00">
 
-<img src="https://img.shields.io/badge/multi-stratified-9d55a2">
+<img src="https://img.shields.io/badge/multi-stratified-00d9ff">
+
+<img src="https://img.shields.io/badge/intuitional-data-787aff">
  
  
 </p>
@@ -22,7 +24,7 @@ _The AppleWatchRing package focuses on visualizing Apple Watch-type Rings to rep
 
 ## Introduction
  
-In migration networks, the **origin-destination (OD)** bilateral flows and each site’s **in- and outflow volumes** are like two sides of the same coin; though popular visualization approaches such as the chord diagram excel in describing the former, the latter mostly remains less depicted aspect. <br />
+The Apple Watch diagram is intuitional visualization of  <br />
 
 By applying the Voronoi-based migration **Kaleidoscope diagram** and integrating it with the **sunburst treemap** [(Jahn et al., 2021)](https://github.com/m-jahn/WeightedTreemaps), the function visualizes migration from different time periods and focalizes on the relative status of each migration body as origin or destination. <br />
 
@@ -35,7 +37,7 @@ By attributing different colors to groups and differentiating **in-** and **outf
  <img src="https://github.com/PunjabNamaskar/AppleWatchRing/blob/main/AppleWatchRing2.png" width=18% height=18% />
  <img src="https://github.com/PunjabNamaskar/AppleWatchRing/blob/main/AppleWatchRing1.png" width=18% height=18% />
 </p>
-<p align="center"><i>Deep color for in-migration, light color for out-migration </i><br />
+<p align="center"><i>There can be customized number of rings</i><br />
  
 
 ## Installation
