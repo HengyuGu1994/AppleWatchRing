@@ -65,11 +65,14 @@ as well as 9 optional parameters:
 - **maxIteration:** the maximum rounds of iteration allowed for the algorithm, with larger values bringing higher possibility of finding convergence. Default at `10000`.
  
  After all parameters are determined, run the following sample(
- palette: <img src="https://img.shields.io/badge/ --ee3437">
- <img src="https://img.shields.io/badge/ --0081c1">
- <img src="https://img.shields.io/badge/ --9d55a2">
- <img src="https://img.shields.io/badge/ --0bae57">
- ):
+ palette: <img src="https://img.shields.io/badge/ --787aff">
+ <img src="https://img.shields.io/badge/ --00d9ff">
+ <img src="https://img.shields.io/badge/ --98fe00">
+ <img src="https://img.shields.io/badge/ --fa1250">→
+<img src="https://img.shields.io/badge/ --8d8eeb">
+ <img src="https://img.shields.io/badge/ --03ffab">
+ <img src="https://img.shields.io/badge/ --d7ff01">
+ <img src="https://img.shields.io/badge/ --f93986"> ):
 
 ```R
 
