@@ -29,7 +29,7 @@ The Apple Watch diagram is originally an intuitional visualization of multilevel
 It is capable of quantifying various types of data based on the same means of measurement (the radius of rings) while disregarding the differences in scales, units and specialties. Each attribute is set with a threshold or benchmark value against which intragroup comparisons can be facilitated. <br />
 
 It is also worthwhile that an intergroup comparison may be feasible by juxtaposing two Apple Watch-type ring sets, when their own strenghs, weaknesses and balances will be easily visible. Whether it be vertical or horizontal comparison, the _AppleWatchRing_ package can serve its purpose on a lot of occasions <br />
-
+<br />
 <p float="center">
   <img src="https://github.com/PunjabNamaskar/AppleWatchRing/blob/main/panel.png" width=18% height=18% />
   <img src="https://github.com/PunjabNamaskar/AppleWatchRing/blob/main/AppleWatchRing4.png" width=18% height=18% />
@@ -38,7 +38,7 @@ It is also worthwhile that an intergroup comparison may be feasible by juxtaposi
  <img src="https://github.com/PunjabNamaskar/AppleWatchRing/blob/main/AppleWatchRing1.png" width=18% height=18% />
 </p>
 <p align="center"><i>There can be customized number of rings</i><br />
- 
+<br />
 <img src="https://github.com/PunjabNamaskar/AppleWatchRing/blob/main/black.png" />
 
 <p align="center"><i>It works with black backgrounds, too</i><br />
