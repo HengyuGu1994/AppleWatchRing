@@ -6,17 +6,12 @@
 
 <p>
 
-<img src="https://img.shields.io/badge/multi-hierarchical-ee3437">
+<img src="https://img.shields.io/badge/multi-dimensional-ee3437">
 
-<img src="https://img.shields.io/badge/multi-regional-0081c1">
+<img src="https://img.shields.io/badge/multi-colored-0081c1">
 
-<img src="https://img.shields.io/badge/multi-periodical-9d55a2">
+<img src="https://img.shields.io/badge/multi-stratified-9d55a2">
  
-<img src="https://img.shields.io/badge/migration-data-0bae57">
- 
-<img src="https://img.shields.io/badge/trade-data-2e95a0">
- 
-<img src="https://img.shields.io/badge/demographic-data-f1c432">
  
 </p>
 
@@ -34,8 +29,10 @@ By applying the Voronoi-based migration **Kaleidoscope diagram** and integrating
 By attributing different colors to groups and differentiating **in-** and **outflows** with **deep** and **light** shades, information about each body’s weight in the migration network is gained from their size in the diagrams, and variable as well as invariable patterns are observed from the trends. <br />
 
 <p float="left">
-  <img src="https://github.com/HengyuGu1994/MigrationKaleidoscope/blob/main/MigrationKaleidoscopeChina.png" width=45% height=45% />
-  <img src="https://github.com/HengyuGu1994/MigrationKaleidoscope/blob/main/StackedBarplotChina.png" width=45% height=45% /> 
+  <img src="https://github.com/PunjabNamaskar/AppleWatchRing/blob/main/AppleWatchRing4.png" width=45% height=45% />
+  <img src="https://github.com/PunjabNamaskar/AppleWatchRing/blob/main/AppleWatchRing3.png" width=45% height=45% />
+ <img src="https://github.com/PunjabNamaskar/AppleWatchRing/blob/main/AppleWatchRing2.png" width=45% height=45% />
+ <img src="https://github.com/PunjabNamaskar/AppleWatchRing/blob/main/AppleWatchRing1.png" width=45% height=45% />
 </p>
 <p align="center"><i>Deep color for in-migration, light color for out-migration </i><br />
  
