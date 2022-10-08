@@ -23,7 +23,7 @@
 
 ------------------------------------------------------------------------
 
-_The MigrationKaleidoscope package aims to generate voronoi- and sunburst-based kaleidoscope diagrams to represent **multihierarchical**, **multiregional** and **multiperiodical** migration data._ <br />
+_The AppleWatchRing package focuses on visualizing Apple Watch-type Rings to represent **multidimensional** and **stratified** data._ <br />
 
 ## Introduction
  
