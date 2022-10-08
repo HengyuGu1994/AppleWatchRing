@@ -48,25 +48,23 @@ devtools::install_github("PunjabNamaskar/AppleWatchRing",force=TRUE)
 
 ## Data Format 
 
-The function `"AppleWatchRing"` takes two types of data, `"list"` and `"threshold"`, both as vectors of equal length. The actual radius of each ring depends on the `"value"` calculated from dividing `"list"` elements by their correspondent `"threshold"` (i.e., `"1"` equals `"2π"`).
+The function `AppleWatchRing` takes two types of data, `list` and `threshold`, both as vectors of equal length. The actual radius of each ring depends on the `value` calculated from dividing `list` elements by their correspondent `threshold` (i.e., `1` equals a radius of `2π`).
  
 ## Usage
 
-The package requires 4 compulsory parameters:
-- **data_name:** the name of the csv file for data input that has been described above, such as `"xx.csv"`. 
-- **label_level:** the level of the hierarchical data to be used for labeling, such as `2`.
-- **color_palette_original:** the hex color codes for representing different groups of data, should be half length of the labeled level, such as `c("#ee3437","#0081c1","#9d55a2","#0bae57")`. The other half of light colors will be generated then.
-- **year:** the year selected to present the data, should be one of the `year` column elements such as `"2010-2015"`.<br />
+The package requires 3 compulsory parameters:
+- **list:** the name of the csv file for data input that has been described above, such as `"xx.csv"`. 
+- **threshold:** the level of the hierarchical data to be used for labeling, such as `2`.
+- **color:** the hex color codes for representing different groups of data, should be half length of the labeled level, such as `c("#ee3437","#0081c1","#9d55a2","#0bae57")`. The other half of light colors will be generated then.
 
-as well as 5 optional parameters:
+as well as 9 optional parameters:
 - **seed:** the seed to initiate the Kaleidoscope diagram, for different seeds give rise to different or even zero patterns, depending on the convergence of the state. Some seeds do not generate a diagram at all.
 - **title:** the title for the stacked barplots, should be in quotes such as `"xx"`.
 - **subtitle:** the subtitle for the stacked barplots, should also be in quotes such as `"xx"`. 
 - **error_tol:** the tolerable error rate between the areas of actual polygon and theoretical polygon, with smaller values indicating more accuracy. Default at `0.01`.
 - **maxIteration:** the maximum rounds of iteration allowed for the algorithm, with larger values bringing higher possibility of finding convergence. Default at `10000`.
  
- After all parameters are determined, run the following codes with sample data 1 
- (
+ After all parameters are determined, run the following sample(
  palette: <img src="https://img.shields.io/badge/ --ee3437">
  <img src="https://img.shields.io/badge/ --0081c1">
  <img src="https://img.shields.io/badge/ --9d55a2">
@@ -86,4 +84,4 @@ AppleWatchRing(list = c(8,7,48,366),
 
 ## Acknowledgements
 
-This package relies greatly on the seminal work of [Michael Jahn, David Leslie and Ahmadou Dicko (2021)](https://github.com/m-jahn/WeightedTreemaps) which makes possible the creation of voronoi and sunburst treemaps. Based on their original version of treemaps, this package integrated voronoi and sunburst diagrams as well as attached circular labels to better illustrate the values of each component. We would like to extend our genuine gratitude to their generous contribution and devotion.
+This package draws much of its inspiration from the interpolation of aesthetics between the start and end points of [ggforce]([https://github.com/m-jahn/WeightedTreemaps](https://github.com/thomasp85/ggforce/blob/main/R/arc.R)), a renowned R package for significant visualizations.
