@@ -54,8 +54,8 @@ The function `AppleWatchRing` takes two types of data, `list` and `threshold`, b
 
 The package requires 3 compulsory parameters:
 - **list:** the list of attributes that are to be packed together and rendered in comparison, such as the _Move, Exercise, Stand_ scores of real Apple Watch. 
-- **threshold:** the level of the hierarchical data to be used for labeling, such as `2`.
-- **color:** the hex color codes for representing different groups of data, should be half length of the labeled level, such as `c("#ee3437","#0081c1","#9d55a2","#0bae57")`. The other half of light colors will be generated then.
+- **threshold:** the threshold or benchmark values for each `list` element to look up to.
+- **color:** the hex color codes for representing different rings, should be an _n×2_ vector, with each color pair on the same row being the start and end colors. The up-to-down order corresponds to the inside-out alignment of rings.
 
 as well as 9 optional parameters:
 - **seed:** the seed to initiate the Kaleidoscope diagram, for different seeds give rise to different or even zero patterns, depending on the convergence of the state. Some seeds do not generate a diagram at all.
