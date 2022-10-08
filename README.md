@@ -24,11 +24,11 @@ _The AppleWatchRing package focuses on visualizing Apple Watch-type Rings to rep
 
 ## Introduction
  
-The Apple Watch diagram is intuitional visualization of  <br />
+The Apple Watch diagram is originally an intuitional visualization of multilevel physical attributes, ranging from the fundamental aspects of human activities to additional items that are of concern. The package makes use of the idea and develops a visualization technique that inherits the patterns but extends it to higher dimensions and broader prospects. <br />
 
-By applying the Voronoi-based migration **Kaleidoscope diagram** and integrating it with the **sunburst treemap** [(Jahn et al., 2021)](https://github.com/m-jahn/WeightedTreemaps), the function visualizes migration from different time periods and focalizes on the relative status of each migration body as origin or destination. <br />
+It is capable of quantifying various types of data based on the same means of measurement (the radius of rings) while disregarding the differences in scales, units and specialties. Each attribute is set with a threshold or benchmark value against which intragroup comparisons can be facilitated. <br />
 
-By attributing different colors to groups and differentiating **in-** and **outflows** with **deep** and **light** shades, information about each body’s weight in the migration network is gained from their size in the diagrams, and variable as well as invariable patterns are observed from the trends. <br />
+It is also worthwhile that an intergroup comparison may be feasible by juxtaposing two Apple Watch-type ring sets, and their own strenghs, weaknesses and balances will be easily visible. Whether it be vertical or horizontal comparison, the AppleWatchRing package can serve its purpose on a lot of occasions <br />
 
 <p float="center">
   <img src="https://github.com/PunjabNamaskar/AppleWatchRing/blob/main/panel.png" width=18% height=18% />
