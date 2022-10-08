@@ -39,6 +39,9 @@ It is also worthwhile that an intergroup comparison may be feasible by juxtaposi
 </p>
 <p align="center"><i>There can be customized number of rings</i><br />
  
+<img src="https://github.com/PunjabNamaskar/AppleWatchRing/blob/main/black.png" width=30% height=30% align="right" />
+
+<p align="center"><i>It works with black backgrounds, too</i><br />
 
 ## Installation
 
