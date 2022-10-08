@@ -87,4 +87,4 @@ AppleWatchRing(list = c(8,7,48,366),
 
 ## Acknowledgements
 
-This package draws much of its inspiration from the interpolation of aesthetics between the start and end points of ([ggforce]([https://github.com/m-jahn/WeightedTreemaps](https://github.com/thomasp85/ggforce/blob/main/R/arc.R)), a renowned R package for significant visualizations.
+This package draws much of its inspiration from the interpolation of aesthetics between the start and end points of ([ggforce](https://github.com/thomasp85/ggforce/blob/main/R/arc.R)), a renowned R package for significant visualizations.
