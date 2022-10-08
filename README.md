@@ -38,50 +38,14 @@ By attributing different colors to groups and differentiating **in-** and **outf
   <img src="https://github.com/HengyuGu1994/MigrationKaleidoscope/blob/main/StackedBarplotChina.png" width=45% height=45% /> 
 </p>
 <p align="center"><i>Deep color for in-migration, light color for out-migration </i><br />
-
-Note that the concepts of inflow and outflow in migration are also applicable to imports and exports in international trade. <br />
  
-<p float="left">
-  <img src="https://github.com/HengyuGu1994/MigrationKaleidoscope/blob/main/MigrationKaleidoscopeWorldBank.png" width=45% height=45% />
-  <img src="https://github.com/HengyuGu1994/MigrationKaleidoscope/blob/main/StackedBarplotWorldBank.png" width=45% height=45% /> <br />
- </p>
- <p align="center"><i>Deep color for in-migration (imports), light color for out-migration (exports)</i><br />
- 
-As well as in the gender composition of inbound international mobile students.<br />
-
-<p float="left">
-  <img src="https://github.com/HengyuGu1994/MigrationKaleidoscope/blob/main/MigrationKaleidoscopeUIS.png" width=45% height=45% />
-  <img src="https://github.com/HengyuGu1994/MigrationKaleidoscope/blob/main/StackedBarplotUIS.png" width=45% height=45% /> 
-</p>
-<p align="center"><i>Deep color for male inbound international students, light color for female inbound international students</i><br />
-
-See also the chord diagram visualization of International Student Mobility by [Gu and Xu (2022)](https://doi.org/10.1177/0308518X211055180) on <i>Environment and Planning A: Economy and Space</i>, First Published October 30, 2021. 
- 
-<p float="center">
-  <img src="https://github.com/HengyuGu1994/MigrationKaleidoscope/blob/main/ism2014-2018.png" width=75% height=75% />
- <img src="https://github.com/HengyuGu1994/MigrationKaleidoscope/blob/main/Environment and Planning A_cover.png" width=20% height=20% align="right" />
-</p> 
- 
-## Comments<br />
- 
-<img src="https://github.com/HengyuGu1994/MigrationKaleidoscope/blob/main/Environment and Planning B_cover.png" width=20% height=20% align="right" />
-
-<p>
- 
-> [Gu and Xu (2022)](https://doi.org/10.1177/23998083221082916) present a diachronic visualisation of China’s internal migration patterns at the country, region and province level simultaneously. They achieve this through an innovative repurposing and expansion of the Voronoi-based Kaleidoscope diagram developed by the [German Federal Statistical Office (2022)](https://www.destatis.de/EN/Themes/Economy/Prices/Consumer-Price-Index/price-kaleidoscope-overview.html) ... The three short articles published as “Featured graphics” in this issue provide excellent examples of what we are looking for in future submissions. <br />
-
-——<i> Environment and Planning B: Urban Analytics and City Science</i> Editorial, [First Published April 19, 2022](https://doi.org/10.1177/23998083221096895)<br />
- 
-</p>
- 
-<img src="https://github.com/HengyuGu1994/MigrationKaleidoscope/blob/main/Compilation.png" />  <br />
 
 ## Installation
 
 Use the following code to install from GitHub.
 
 ```R
-devtools::install_github("HengyuGu1994/MigrationKaleidoscope",force=TRUE)
+devtools::install_github("PunjabNamaskar/AppleWatchRing",force=TRUE)
 ```
 
 ## Data Format 
@@ -131,65 +95,14 @@ as well as 5 optional parameters:
 
 ```R
 
-library(MigrationKaleidoscope)
-MigrationKaleidoscope(data_name = "MigrationChina.csv",
-                      label_level = 2,
-                      color_palette_original = c("#ee3437","#0081c1",
-                                                 "#9d55a2","#0bae57"),
-                      year = "2010-2015",seed = 114,
-                      error_tol=0.00001,
-                      title = "China's Internal Migration (Million)",
-                      subtitle = "source: National Population Census of the People's Republic of China"
-)
+AppleWatchRing(list = c(8,7,48,366),
+           threshold = c(12,12,30,590),
+           color = c("#787aff", "#8d8eeb", 
+                     "#00d9ff", "#03ffab", 
+                     "#98fe00", "#d7ff01", 
+                     "#fa1250", "#f93986"))
 ```
 
-as well as data sample 2
-(
- palette: <img src="https://img.shields.io/badge/ --ff1b6b">
- <img src="https://img.shields.io/badge/ --2e95a0">
- <img src="https://img.shields.io/badge/ --0077c7">
- <img src="https://img.shields.io/badge/ --44b77c">
- <img src="https://img.shields.io/badge/ --f1c432">
- ):
-
-```R
-MigrationKaleidoscope(data_name = "MigrationWorldBank.csv",
-                      label_level = 2,
-                      color_palette_original = c("#ff1b6b","#2e95a0",
-                                                 "#0077c7","#44b77c",
-                                                 "#f1c432"),
-                      year = "2019",error_tol=0.00001,
-                      title = "Imports and Exports of goods, services and primary income\n(BoP, current million US$)",
-                      subtitle = "source: World Bank"
-)
-```
-
-and data sample 3
-(
- palette: <img src="https://img.shields.io/badge/ --cf294a">
- <img src="https://img.shields.io/badge/ --eb7d3d">
- <img src="https://img.shields.io/badge/ --0c63bf">
- <img src="https://img.shields.io/badge/ --3eb863">
- <img src="https://img.shields.io/badge/ --49c0b6">
- ):
-
-```R
-MigrationKaleidoscope(data_name = "MigrationUIS.csv",
-                      label_level = 2,
-                      color_palette_original = c("#e580bd","#8397c5",
-                                                 "#fc8357","#5bbc9c",
-                                                 "#9dd349"),
-                      year = "2019",
-                      title = "Inbound internationally mobile students by gender",
-                      subtitle = "source: The UNESCO Institute for Statistics (UIS)"
-)
-```
-
-## Citation
-
-Please cite using this form (APA for example):
-
-> Gu, H., & Xu, Z. (2022). Kaleidoscope visualisation of China’s internal migration, 1985–2020. *Environment and Planning B: Urban Analytics and City Science*, *49*(4), 1341–1344. https://doi.org/10.1177/23998083221082916
 
 ## Acknowledgements
 
