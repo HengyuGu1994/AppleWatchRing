@@ -48,25 +48,7 @@ devtools::install_github("PunjabNamaskar/AppleWatchRing",force=TRUE)
 
 ## Data Format 
 
-| h1   | h2              | h3            | color | value       | year      |
-| ---- | --------------- | ------------- | ----- | ----------- | --------- |
-| East | Beijing 4.23    | Beijing-in    | 1     | 3.827759959 | 2005-2010 |
-| East | Tianjin 1.71    | Tianjin-in    | 1     | 1.49712     | 2005-2010 |
-| East | Hebei 2.94      | Hebei-in      | 1     | 0.924089997 | 2005-2010 |
-| East | Shandong 3.35   | Shandong-in   | 1     | 1.335580002 | 2005-2010 |
-| East | Jiangsu 6.78    | Jiangsu-in    | 1     | 4.887289935 | 2005-2010 |
-...
-| East | Beijing 4.23    | Beijing-out   | 2     | 0.405949995 | 2005-2010 |
-| East | Tianjin 1.71    | Tianjin-out   | 2     | 0.213359999 | 2005-2010 |
-| East | Hebei 2.94      | Hebei-out     | 2     | 2.017390001 | 2005-2010 |
-| East | Shandong 3.35   | Shandong-out  | 2     | 2.014989985 | 2005-2010 |
-| East | Jiangsu 6.78    | Jiangsu-out   | 2     | 1.893540001 | 2005-2010 |
-...
- 
- - **The hierarchies:** The hierarchies are named `h1`, `h2` ... etc., note that the level to be labeled should also contain label texts, for example, `"Beijing 4.23"` serves both as the second level indicator and a label string. Meanwhile, the lowest level should end with `"-in"` and `"-out"`.
- - **The color:** A numeric series starting from `1`, should be in accordance with the `-in` and `-out` series. The color column should be sorted in ascending order.
- - **The value:** Values defining the cells' and labels' sizes.
- - **The year:** Year for the time series.
+The function `"AppleWatchRing"` takes two types of data, `"list"` and `"threshold"`, both as vectors of equal length. The actual radius of each ring depends on the `"value"` calculated from dividing `"list"` elements by their correspondent `"threshold"` (i.e., `"1"` equals `"2π"`).
  
 ## Usage
 
