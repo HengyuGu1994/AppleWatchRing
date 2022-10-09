@@ -48,7 +48,7 @@ It is also worthwhile that an intergroup comparison may be feasible by juxtaposi
 Use the following code to install from GitHub.
 
 ```R
-devtools::install_github("PunjabNamaskar/AppleWatchRing",force=TRUE)
+devtools::install_github("HengyuGu1994/AppleWatchRing",force=TRUE)
 ```
 
 ## Data Format 
