@@ -10,7 +10,7 @@
 
 <img src="https://img.shields.io/badge/multi-colored-98fe00">
 
-<img src="https://img.shields.io/badge/multi-stratified-00d9ff">
+<img src="https://img.shields.io/badge/multi-phased-00d9ff">
 
 <img src="https://img.shields.io/badge/benchmarked-data-787aff">
  
