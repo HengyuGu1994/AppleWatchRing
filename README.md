@@ -28,7 +28,7 @@ The Apple Watch™ diagram is originally an intuitional visualization of multile
 
 It is capable of quantifying various types of data based on the same means of measurement (the radius of rings) while disregarding the differences in scales, units and specialties. Each attribute is set with a threshold or benchmark value against which intragroup comparisons can be facilitated. Once the benchmark value is attained, a cycle appears on the diagram (or in their words, [Close Your Rings](https://www.apple.com/watch/close-your-rings/)). <br />
 
-It is also worthwhile that an intergroup comparison may be feasible by juxtaposing two Apple Watch-style ring sets, when their own strenghs, weaknesses and balances will be easily visible. Whether it be vertical or horizontal comparison, the _AppleWatchRing_ package can serve its purpose on a lot of occasions <br />
+It is also worthwhile that an intergroup comparison may be feasible by juxtaposing two Apple Watch-style ring sets, when their own strenghs, weaknesses and balances will be easily visible. Whether it be vertical or horizontal comparison, the _AppleWatchRing_ package can serve its purpose on a lot of occasions. <br />
 <br />
 <p float="center">
   <img src="https://github.com/PunjabNamaskar/AppleWatchRing/blob/main/panel.png" width=18% height=18% />
