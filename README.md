@@ -12,7 +12,7 @@
 
 <img src="https://img.shields.io/badge/multi-stratified-00d9ff">
 
-<img src="https://img.shields.io/badge/intuitional-data-787aff">
+<img src="https://img.shields.io/badge/benchmarked-data-787aff">
  
  
 </p>
@@ -20,7 +20,7 @@
 
 ------------------------------------------------------------------------
 
-_The AppleWatchRing package focuses on visualizing Apple Watch-style Rings to represent **multidimensional** and **stratified** data._ <br />
+_The AppleWatchRing package focuses on visualizing Apple Watch-style Rings to represent **multidimensional** and **benchmarked** data._ <br />
 
 ## Introduction
  
